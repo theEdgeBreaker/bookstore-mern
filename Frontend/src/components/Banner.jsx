@@ -2,9 +2,9 @@ import banner from "../../public/Banner.png";
 
 const Banner = () => {
   return (
-    <div className=" max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row ">
+    <div className=" max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row mt-10 mb-20">
       {/* left part */}
-      <div className=" w-full md:w-1/2 mt-12 md:mt-32  order-2 md:order-1">
+      <div className=" w-full md:w-1/2 mt-12 md:mt-32   order-2 md:order-1">
         <div className="space-y-12">
           <h1 className="text-4xl font-bold">
             Hello, welcome here to learn something
@@ -38,7 +38,7 @@ const Banner = () => {
         className=" w-full md:w-1/2 mt-12 md:mt-32   flex items-center justify-center
       order-1 md:order-2"
       >
-        <img src={banner} alt="books-img" className=" w-3/4 " />
+        <img src={banner} alt="books-img" className=" w-4/5 " />
       </div>
     </div>
   );
