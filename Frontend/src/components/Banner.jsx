@@ -14,7 +14,7 @@ const Banner = () => {
           <p className="text-xl ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco
+            ad minim veniam, quis nostrud exercitation ullamco.
           </p>
 
           <label className="input input-bordered flex items-center gap-2">
