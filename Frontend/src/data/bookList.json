@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "name": "Story Book",
+    "name": "Drama Book",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     "price": 0,
     "category": "Free",
@@ -17,7 +17,7 @@
   },
   {
     "id": 2,
-    "name": "Story Book",
+    "name": "Science Fiction",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     "price": 0,
     "category": "Free",
