@@ -6,7 +6,7 @@ function Courses() {
   return (
     <>
       <Navbar />
-      <div className="min-h-screen">
+      <div className="min-h-screen bg-red-500">
         <Course />
       </div>
       <Footer />

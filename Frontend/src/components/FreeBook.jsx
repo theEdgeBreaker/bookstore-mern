@@ -57,7 +57,7 @@ const FreeBook = () => {
         <div>
           <Slider {...settings}>
             {filterData.map((item) => (
-              <Cards item={item} key={item.id} />
+              <Cards item={item} key={item.id} isHome={true} />
             ))}
           </Slider>
         </div>
