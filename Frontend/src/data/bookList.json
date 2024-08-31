@@ -5,8 +5,7 @@
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     "price": 0,
     "category": "Free",
-    "image1": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724652046~exp=1724655646~hmac=b0c0429f7e8eaf4f25ed0049859249d947e804a9fff8bf0b17cce39d767c8bdc&w=826",
-    "image2": "https://www.freepik.com/free-photo/arrangement-with-books-cup-dark-background_13130596.htm#fromView=search&page=1&position=3&uuid=a18f069c-c183-459a-bdbe-841170e718dd"
+    "image": "https://img.freepik.com/free-vector/world-book-day-background_23-2147782550.jpg?t=st=1725096655~exp=1725100255~hmac=0dbbb1bcc405cad1bd7c0d7c3649e63219bd5193b03ecd64772aeec150bce82f&w=826"
   },
   {
     "id": 2,
@@ -14,8 +13,7 @@
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     "price": 0,
     "category": "Free",
-    "image1": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724652046~exp=1724655646~hmac=b0c0429f7e8eaf4f25ed0049859249d947e804a9fff8bf0b17cce39d767c8bdc&w=826",
-    "image2": "https://img.freepik.com/free-vector/flat-design-theatre-show-invitation_23-2149850553.jpg?ga=GA1.1.483297897.1723559845&semt=ais_hybrid"
+    "image": "https://img.freepik.com/free-vector/flat-design-theatre-show-invitation_23-2149850553.jpg?ga=GA1.1.483297897.1723559845&semt=ais_hybrid"
   },
   {
     "id": 2,
@@ -23,8 +21,7 @@
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     "price": 0,
     "category": "Free",
-    "image1": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724652046~exp=1724655646~hmac=b0c0429f7e8eaf4f25ed0049859249d947e804a9fff8bf0b17cce39d767c8bdc&w=826",
-    "image2": "https://img.freepik.com/free-vector/colorful-education-concept-with-flat-design_23-2147902622.jpg?ga=GA1.1.483297897.1723559845&semt=ais_hybrid"
+    "image": "https://img.freepik.com/free-vector/colorful-education-concept-with-flat-design_23-2147902622.jpg?ga=GA1.1.483297897.1723559845&semt=ais_hybrid"
   },
   {
     "id": 4,
@@ -32,8 +29,7 @@
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     "price": 100,
     "category": "Song",
-    "image1": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724652046~exp=1724655646~hmac=b0c0429f7e8eaf4f25ed0049859249d947e804a9fff8bf0b17cce39d767c8bdc&w=826",
-    "image2": "https://www.freepik.com/free-psd/music-concept-flyer-template_9702206.htm#fromView=search&page=1&position=0&uuid=9893658b-148e-4410-9de3-0512defbf410"
+    "image": "https://img.freepik.com/free-psd/music-concept-flyer-template_23-2148640868.jpg?t=st=1725096757~exp=1725100357~hmac=26e3cd8ae5ed1310b80f847d59985f2ed19d4325afffd94d29d47f26a481bd19&w=826"
   },
   {
     "id": 5,
@@ -41,8 +37,7 @@
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     "price": 0,
     "category": "Free",
-    "image1": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724652046~exp=1724655646~hmac=b0c0429f7e8eaf4f25ed0049859249d947e804a9fff8bf0b17cce39d767c8bdc&w=826",
-    "image2": "https://img.freepik.com/free-photo/open-book-concept-fiction-storytelling-fairytale_23-2150793739.jpg?t=st=1724742423~exp=1724746023~hmac=96ada99fa1a5ed5a3cf83fc42295331702a9f866a4d4e8cf8bc16c3df46449cc&w=740"
+    "image": "https://img.freepik.com/free-psd/book-club-template-design_23-2151486668.jpg?t=st=1725096817~exp=1725100417~hmac=d7f7d8e131dee8226856bb92b91aede2eb508b561eb8c37d3be9ac08367b00de&w=826"
   },
   {
     "id": 6,
@@ -50,8 +45,7 @@
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     "price": 50,
     "category": "sports",
-    "image1": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724652046~exp=1724655646~hmac=b0c0429f7e8eaf4f25ed0049859249d947e804a9fff8bf0b17cce39d767c8bdc&w=826",
-    "image2": "https://img.freepik.com/free-psd/sport-outside-poster-template-design_23-2148603580.jpg?ga=GA1.1.483297897.1723559845&semt=ais_hybrid"
+    "image": "https://img.freepik.com/free-psd/sport-outside-poster-template-design_23-2148603580.jpg?ga=GA1.1.483297897.1723559845&semt=ais_hybrid"
   },
   {
     "id": 7,
@@ -59,8 +53,7 @@
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     "price": 0,
     "category": "Free",
-    "image1": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724652046~exp=1724655646~hmac=b0c0429f7e8eaf4f25ed0049859249d947e804a9fff8bf0b17cce39d767c8bdc&w=826",
-    "image2": "https://img.freepik.com/free-vector/book-with-fairies-flying-garden_1308-36771.jpg?ga=GA1.1.483297897.1723559845&semt=ais_hybrid"
+    "image": "https://img.freepik.com/free-vector/child-like-adventures-book-cover_23-2149320641.jpg?w=826&t=st=1725102456~exp=1725103056~hmac=d006b7880a2a832096de6a71eeb997fd60a013ca6ab1ebfb02b9792641adfceb"
   },
   {
     "id": 8,
@@ -68,43 +61,31 @@
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     "price": 0,
     "category": "Free",
-    "image1": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724652046~exp=1724655646~hmac=b0c0429f7e8eaf4f25ed0049859249d947e804a9fff8bf0b17cce39d767c8bdc&w=826",
-    "image2": "https://www.freepik.com/free-ai-image/fantasy-style-scene-international-day-education_94193214.htm#fromView=search&page=1&position=0&uuid=63529f3e-15f5-42c2-b2c4-0af4f7db5ba0"
+    "image": "https://img.freepik.com/free-vector/flat-dinosaur-birthday-invitation-template-with-photo_23-2148952202.jpg?w=826&t=st=1725102519~exp=1725103119~hmac=3d697ee115c55d59fb7bb1507cdee247a7b507eeb75e4ab72b3c849468a5a144"
   },
+
   {
     "id": 9,
-    "name": "Comedy Book",
-    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    "price": 0,
-    "category": "Entertainment",
-    "image1": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724652046~exp=1724655646~hmac=b0c0429f7e8eaf4f25ed0049859249d947e804a9fff8bf0b17cce39d767c8bdc&w=826",
-    "image2": "https://img.freepik.com/free-vector/flat-april-fools-day-vertical-flyer-template_23-2149326913.jpg?ga=GA1.1.483297897.1723559845&semt=ais_hybrid"
-  },
-  {
-    "id": 10,
     "name": "Story Book",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     "price": 0,
     "category": "Free",
-    "image1": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724652046~exp=1724655646~hmac=b0c0429f7e8eaf4f25ed0049859249d947e804a9fff8bf0b17cce39d767c8bdc&w=826",
-    "image2": "https://www.freepik.com/free-ai-image/fantasy-style-scene-international-day-education_94193214.htm#fromView=search&page=1&position=0&uuid=63529f3e-15f5-42c2-b2c4-0af4f7db5ba0"
+    "image": "https://img.freepik.com/free-photo/education-day-scene-fantasy-style-aesthetic_23-2151040269.jpg?t=st=1725102677~exp=1725106277~hmac=e21d81e46329c5fd090396305f4445f7e48aff1a16c1cd6c02ddf890e36d26d2&w=826"
   },
   {
-    "id": 11,
+    "id": 10,
     "name": "Sports Spirit",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     "price": 0,
     "category": "Sports",
-    "image1": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724652046~exp=1724655646~hmac=b0c0429f7e8eaf4f25ed0049859249d947e804a9fff8bf0b17cce39d767c8bdc&w=826",
-    "image2": "https://img.freepik.com/free-psd/vertical-poster-sports-with-man_23-2148829450.jpg?ga=GA1.1.483297897.1723559845&semt=ais_hybrid"
+    "image": "https://img.freepik.com/free-psd/vertical-poster-sports-with-man_23-2148829450.jpg?ga=GA1.1.483297897.1723559845&semt=ais_hybrid"
   },
   {
-    "id": 12,
+    "id": 11,
     "name": "Cooking Masters",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     "price": 200,
     "category": "Food",
-    "image1": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724652046~exp=1724655646~hmac=b0c0429f7e8eaf4f25ed0049859249d947e804a9fff8bf0b17cce39d767c8bdc&w=826",
-    "image2": "https://www.freepik.com/free-psd/baker-good-ingredients-flyer-template_9681415.htm#fromView=search&page=1&position=18&uuid=682f54df-8d2d-48c5-9bbb-79e53c558757"
+    "image": "https://img.freepik.com/free-psd/cook-home-flyer-template_23-2148567729.jpg?t=st=1725103117~exp=1725106717~hmac=6afa452eb9c9b31f731969be504c253a1a53d447118d0c0a777a8dd049724676&w=826"
   }
 ]
