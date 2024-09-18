@@ -1,15 +1,22 @@
 import express from "express";
+import mongoose from "mongoose";
 import dotenv from "dotenv";
-const app = express();
 
 dotenv.config();
 
 const PORT = process.env.PORT || 4000;
+const URI = process.env.MONGO_URI;
 
-app.get("/", (req, res) => {
-  res.send("bookStore App");
-});
+const app = express();
 
-app.listen(PORT, () => {
-  console.log(`Server is listening on port ${PORT}`);
-});
+mongoose
+  .connect(URI)
+  .then(() => {
+    console.log("Connected to MongoDB");
+    app.listen(PORT, () => {
+      console.log(`Server is listening on port ${PORT}`);
+    });
+  })
+  .catch((error) => {
+    console.log(error);
+  });
