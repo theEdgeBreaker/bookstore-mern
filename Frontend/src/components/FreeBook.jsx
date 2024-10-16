@@ -1,11 +1,47 @@
-import list from "../data/bookList.json";
+import { useEffect, useState } from "react";
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import Cards from "./Cards";
 
-const FreeBook = () => {
-  const filterData = list.filter((data) => data.category === "Free");
+import axios from "axios";
+
+import Cards from "./Cards";
+function Freebook() {
+  const [book, setBook] = useState([]);
+  // useEffect(() => {
+  //   const getBook = async () => {
+  //     try {
+  //       const res = await axios.get("http://localhost:4001/book");
+
+  //       const data = res.data.filter((data) => data.category === "Free");
+  //       console.log("filtered data: ", data);
+  //       setBook(data);
+  //     } catch (error) {
+  //       console.log(error);
+  //     }
+  //   };
+  //   getBook();
+  // }, []);
+
+  useEffect(() => {
+    const getBook = async () => {
+      try {
+        const res = await axios.get("http://localhost:4001/book");
+
+        // Log raw data before filtering
+        console.log("raw data: ", res.data);
+
+        const data = res.data.filter((data) => data.category === "Free");
+        console.log("filtered data: ", data);
+
+        setBook(data);
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    getBook();
+  }, []);
 
   var settings = {
     dots: true,
@@ -14,6 +50,7 @@ const FreeBook = () => {
     slidesToShow: 3,
     slidesToScroll: 3,
     initialSlide: 0,
+
     responsive: [
       {
         breakpoint: 1024,
@@ -41,29 +78,27 @@ const FreeBook = () => {
       },
     ],
   };
-
   return (
     <>
-      <div className="max-w-screen-2xl container mx-auto md:px-20 px-4">
+      <div className=" max-w-screen-2xl container mx-auto md:px-20 px-4">
         <div>
-          <h1 className=" font-semibold text-xl pb-2 ">Free Offered Courses</h1>
+          <h1 className="font-semibold text-xl pb-2">Free Offered Courses</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, Ut enim ad
-            minim veniam, quis nostrud exercitation ullamco sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Accusantium veritatis alias pariatur ad dolor repudiandae eligendi
+            corporis nulla non suscipit, iure neque earum?
           </p>
         </div>
 
         <div>
           <Slider {...settings}>
-            {filterData.map((item) => (
-              <Cards item={item} key={item.id} isHome={true} />
+            {book.map((item, index) => (
+              <Cards item={item} key={item.id ? item.id : index} />
             ))}
           </Slider>
         </div>
       </div>
     </>
   );
-};
-
-export default FreeBook;
+}
+export default Freebook;
