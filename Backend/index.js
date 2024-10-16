@@ -4,11 +4,14 @@ import dotenv from "dotenv";
 import fs from "fs";
 import path from "path";
 import Book from "./model/book.model.js"; // Importing book model
-import bookRoute from "./route/book.route.js"; // Importing routes
+import bookRoute from "./route/book.route.js"; // Importing book route
+import userRoute from "./route/user.route.js"; // Importing user route
 import cors from "cors";
 
 const app = express();
 app.use(cors());
+app.use(express.json());
+
 dotenv.config();
 
 const PORT = process.env.PORT || 4000;
@@ -53,3 +56,4 @@ mongoose
 
 // Defining routes
 app.use("/book", bookRoute);
+app.use("/user", userRoute);
