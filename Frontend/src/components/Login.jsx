@@ -20,16 +20,21 @@ function Login() {
       .then((res) => {
         console.log(res.data);
         if (res.data) {
-          // alert("Logedin Successfully");
           toast.success("Logedin Successfully");
+          document.getElementById("my_modal_3").close();
+
+          setTimeout(() => {
+            // to automatically reload the page
+            window.location.reload();
+            localStorage.setItem("Users", JSON.stringify(res.data.user));
+          }, 1000);
         }
-        localStorage.setItem("Users", JSON.stringify(res.data.user));
       })
       .catch((err) => {
         if (err.response) {
           console.log(err);
-          // alert("Error: " + err.response.data.message);
           toast.error("Error: " + err.response.data.message);
+          setTimeout(() => {}, 2000);
         }
       });
   };
