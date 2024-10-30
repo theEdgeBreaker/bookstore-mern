@@ -9,25 +9,11 @@ import axios from "axios";
 import Cards from "./Cards";
 function Freebook() {
   const [book, setBook] = useState([]);
-  // useEffect(() => {
-  //   const getBook = async () => {
-  //     try {
-  //       const res = await axios.get("http://localhost:4001/book");
-
-  //       const data = res.data.filter((data) => data.category === "Free");
-  //       console.log("filtered data: ", data);
-  //       setBook(data);
-  //     } catch (error) {
-  //       console.log(error);
-  //     }
-  //   };
-  //   getBook();
-  // }, []);
 
   useEffect(() => {
     const getBook = async () => {
       try {
-        const res = await axios.get("http://localhost:4001/book");
+        const res = await axios.get("/book");
 
         // Log raw data before filtering
         console.log("raw data: ", res.data);
