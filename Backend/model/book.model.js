@@ -7,7 +7,6 @@ const bookSchema = mongoose.Schema({
   image: String,
   title: String,
 });
-
 const Book = mongoose.model("Book", bookSchema);
 
 export default Book;
