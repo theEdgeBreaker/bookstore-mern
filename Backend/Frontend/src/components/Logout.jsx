@@ -1,12 +1,23 @@
 import toast from "react-hot-toast";
 import { useAuth } from "../../context/AuthProvider";
-
+import axios from "axios";
 function Logout() {
-  const [setAuthUser] = useAuth();
+  // const [setAuthUser] = useAuth();
 
-  const handleLogout = () => {
+  const handleLogout = async () => {
     try {
-      setAuthUser(null); // Ensure to set authUser to null
+      const { email } = JSON.parse(localStorage.getItem("Users"));
+      console.log(email);
+
+
+      const response = await axios.post("http://localhost:4001/user/logout", {
+        email: email,
+      });
+
+      console.log(response);
+
+
+      // setAuthUser(null); // Ensure to set authUser to null
       localStorage.removeItem("Users");
       toast.success("Logout successfully");
 
@@ -16,7 +27,7 @@ function Logout() {
       }, 2000);
     } catch (error) {
       toast.error("Error: " + error);
-      setTimeout(() => {}, 2000);
+      setTimeout(() => { }, 2000);
     }
   };
 
