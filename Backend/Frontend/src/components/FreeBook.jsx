@@ -16,10 +16,10 @@ function Freebook() {
         const res = await axios.get("/book");
 
         // Log raw data before filtering
-        console.log("raw data: ", res.data);
+        // console.log("raw data: ", res.data);
 
         const data = res.data.filter((data) => data.category === "Free");
-        console.log("filtered data: ", data);
+        // console.log("filtered data: ", data);
 
         setBook(data);
       } catch (error) {
